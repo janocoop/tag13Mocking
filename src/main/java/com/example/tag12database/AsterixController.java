@@ -13,7 +13,7 @@ import java.util.List;
 public class AsterixController {
 
 
-   private final CharacterRepo repo;
+   private final AsterixRepository repo;
 
     public AsterixController(CharacterRepo repo) {
         this.repo = repo;
