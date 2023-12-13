@@ -17,7 +17,8 @@ public class AsterixServiceTest {
         List<Character> actual = service.getAllCharacters();
 
         List<Character> expected = List.of(
-                new Character("1","erster", 23, "beruf");
+                new Character()
+        )
     }
     @Test
     public void test2FindCharacterById() {
